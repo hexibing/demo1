@@ -16,7 +16,7 @@ public class HelloController {
 
     @RequestMapping(value = "/hello")
     public String hello(){
-        return "hello spring boot11111aaaaaa";
+        return "hello spring boot11111";
     }
 
     @RequestMapping(value = "/getInfo")
