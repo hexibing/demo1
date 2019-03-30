@@ -1,5 +1,6 @@
 package com.example.demo1.controller;
 
+import com.example.demo1.dto.UserDto;
 import com.example.demo1.model.User;
 import com.example.demo1.service.IUserService;
 import org.apache.log4j.Logger;
@@ -31,5 +32,11 @@ public class UserController {
         return userService.getUserInfo("1");
     }
 
+    @RequestMapping(value = "/getInfo1")
+    public UserDto getInfo1(){
+
+        logger.info("aaaa");
+        return userService.getUserDto("1");
+    }
 
 }
