@@ -1,5 +1,7 @@
 package com.example.demo1.model;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import java.util.Date;
 
 public class User {
@@ -9,8 +11,9 @@ public class User {
 
     private Integer addressId;
 
+    @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss",timezone = "GMT+8")
     private Date createTime;
-
+    @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss",timezone = "GMT+8")
     private Date updateTime;
 
     public User(String id, String userName, Integer addressId, Date createTime, Date updateTime) {
