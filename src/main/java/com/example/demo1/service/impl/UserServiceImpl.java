@@ -17,6 +17,11 @@ public class UserServiceImpl  implements IUserService {
     private UserMapper userMapper;
 
     @Override
+    public void updateUserInfo(User user) {
+        userMapper.updateByPrimaryKeySelective(user);
+    }
+
+    @Override
     public User getUserInfo(String user_id) {
 
         return userMapper.selectByPrimaryKey(user_id);

@@ -10,4 +10,6 @@ public interface IUserService {
     public User getUserInfo(String user_id);
 
     public UserDto getUserDto(String user_id);
+
+    public void updateUserInfo(User user);
 }

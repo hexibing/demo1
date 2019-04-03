@@ -26,10 +26,6 @@ public class UserController {
     private IUserService userService;
 
 
-    @RequestMapping(value = "/hello")
-    public String hello(){
-        return "hello spring boot11111";
-    }
 
     @RequestMapping(value = "/getInfo")
     public User getInfo(){
