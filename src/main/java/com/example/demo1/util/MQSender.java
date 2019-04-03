@@ -1,7 +1,6 @@
 package com.example.demo1.util;
 
 import com.alibaba.fastjson.JSONObject;
-import com.example.demo1.config.RabbitConfig;
 import com.example.demo1.controller.UserController;
 import com.example.demo1.model.User;
 import org.apache.log4j.Logger;
