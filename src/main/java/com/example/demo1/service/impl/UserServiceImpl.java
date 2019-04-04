@@ -19,6 +19,11 @@ public class UserServiceImpl  implements IUserService {
     private UserMapper userMapper;
 
     @Override
+    public void updateUser(User user) {
+        userMapper.updateByPrimaryKeySelective(user);
+    }
+
+    @Override
     public User getUserByExample(User user) {
         UserExample example=new UserExample();
         UserExample.Criteria criteria=example.createCriteria();
@@ -46,6 +51,7 @@ public class UserServiceImpl  implements IUserService {
 
     @Override
     public void updateUserInfo(User user) {
+
         userMapper.updateByPrimaryKeySelective(user);
     }
 
@@ -58,7 +64,6 @@ public class UserServiceImpl  implements IUserService {
 
     @Override
     public UserDto getUserDto(String user_id) {
-
         User user= userMapper.selectByPrimaryKey(user_id);
         UserDto dto=new UserDto(true);
         dto.setUser_id(user.getId());

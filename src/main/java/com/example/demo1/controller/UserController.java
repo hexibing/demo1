@@ -44,6 +44,15 @@ public class UserController {
         return new BaseDto(true);
     }
 
+    //更新
+    @PostMapping(value = "/updateUser")
+    public BaseDto updateUser(@RequestBody User user) {
+        logger.info("updateUser" + user.toString());
+        userService.updateUser(user);
+        return new BaseDto(true);
+    }
+
+
     @GetMapping(value = "/getInfo")
     public User getInfo(@RequestBody User user) {
         logger.info("getInfo" + user.toString());

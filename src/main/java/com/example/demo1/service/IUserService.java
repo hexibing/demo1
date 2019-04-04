@@ -19,5 +19,5 @@ public interface IUserService {
 
     User getUserByExample(User user);
 
-
+    void updateUser(User user);
 }

@@ -3327,3 +3327,189 @@ Caused by: java.lang.IllegalArgumentException: Result Maps collection already co
 2019-04-04 16:40:07,217  INFO TomcatWebServer:204 - Tomcat started on port(s): 8080 (http) with context path ''
 2019-04-04 16:40:07,218  INFO Demo1Application:59 - Started Demo1Application in 0.652 seconds (JVM running for 125.333)
 2019-04-04 16:40:07,219  INFO ConditionEvaluationDeltaLoggingListener:70 - Condition evaluation unchanged
+2019-04-04 16:50:08,392  INFO DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2019-04-04 16:50:08,402  INFO DispatcherServlet:546 - Completed initialization in 9 ms
+2019-04-04 16:50:08,407  INFO UserController:49 - getInfoUser [Hash = -716442585, id=null, user_name=xxx, address_id=null, create_time=null, update_time=null]
+2019-04-04 16:50:46,196  INFO SimpleMessageListenerContainer:586 - Waiting for workers to finish.
+2019-04-04 16:50:47,046  INFO SimpleMessageListenerContainer:589 - Successfully waited for workers to finish.
+2019-04-04 16:50:47,047  INFO SimpleMessageListenerContainer:1224 - Shutdown ignored - container is not active already
+2019-04-04 16:50:47,048  INFO ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-04 16:50:47,050  INFO DruidDataSource:1823 - {dataSource-3} closed
+2019-04-04 16:50:47,410  INFO DevToolsPropertyDefaultsPostProcessor:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-04 16:50:47,411  INFO DevToolsPropertyDefaultsPostProcessor:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-04 16:50:47,417  INFO Demo1Application:50 - Starting Demo1Application on PC-201902161946 with PID 5088 (C:\mycode\demov1\target\classes started by Administrator in C:\mycode\demov1)
+2019-04-04 16:50:47,417  INFO Demo1Application:675 - No active profile set, falling back to default profiles: default
+2019-04-04 16:50:47,645  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-04 16:50:47,646  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-04 16:50:47,651  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-04-04 16:50:47,697  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$63841fe0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-04 16:50:47,703  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9d1861b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-04 16:50:47,774  INFO TomcatWebServer:90 - Tomcat initialized with port(s): 8080 (http)
+2019-04-04 16:50:47,796  INFO ContextLoader:296 - Root WebApplicationContext: initialization completed in 377 ms
+2019-04-04 16:50:47,836  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-04 16:50:47,904  INFO DruidDataSource:928 - {dataSource-4} inited
+2019-04-04 16:50:47,996  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-04 16:50:48,088  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-04-04 16:50:48,107  INFO CachingConnectionFactory:460 - Attempting to connect to: [127.0.0.1:5672]
+2019-04-04 16:50:48,115  INFO CachingConnectionFactory:496 - Created new connection: rabbitConnectionFactory#4a390990:0/SimpleConnection@249c46aa [delegate=amqp://guest@127.0.0.1:5672/, localPort= 54303]
+2019-04-04 16:50:48,135  INFO TomcatWebServer:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-04 16:50:48,135  INFO Demo1Application:59 - Started Demo1Application in 0.736 seconds (JVM running for 766.25)
+2019-04-04 16:50:48,137  INFO ConditionEvaluationDeltaLoggingListener:70 - Condition evaluation unchanged
+2019-04-04 17:16:40,135  INFO SimpleMessageListenerContainer:586 - Waiting for workers to finish.
+2019-04-04 17:16:40,577  INFO SimpleMessageListenerContainer:589 - Successfully waited for workers to finish.
+2019-04-04 17:16:40,584  INFO SimpleMessageListenerContainer:1224 - Shutdown ignored - container is not active already
+2019-04-04 17:16:40,585  INFO ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-04 17:16:40,587  INFO DruidDataSource:1823 - {dataSource-4} closed
+2019-04-04 17:16:40,942  INFO DevToolsPropertyDefaultsPostProcessor:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-04 17:16:40,943  INFO DevToolsPropertyDefaultsPostProcessor:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-04 17:16:40,948  INFO Demo1Application:50 - Starting Demo1Application on PC-201902161946 with PID 5088 (C:\mycode\demov1\target\classes started by Administrator in C:\mycode\demov1)
+2019-04-04 17:16:40,948  INFO Demo1Application:675 - No active profile set, falling back to default profiles: default
+2019-04-04 17:16:41,136  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-04 17:16:41,136  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-04 17:16:41,141  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-04-04 17:16:41,169  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$63841fe0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-04 17:16:41,174  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9d1861b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-04 17:16:41,234  INFO TomcatWebServer:90 - Tomcat initialized with port(s): 8080 (http)
+2019-04-04 17:16:41,250  INFO ContextLoader:296 - Root WebApplicationContext: initialization completed in 300 ms
+2019-04-04 17:16:41,292  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-04 17:16:41,355  INFO DruidDataSource:928 - {dataSource-5} inited
+2019-04-04 17:16:41,443  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-04 17:16:41,532  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-04-04 17:16:41,551  INFO CachingConnectionFactory:460 - Attempting to connect to: [127.0.0.1:5672]
+2019-04-04 17:16:41,558  INFO CachingConnectionFactory:496 - Created new connection: rabbitConnectionFactory#5924b571:0/SimpleConnection@444f459d [delegate=amqp://guest@127.0.0.1:5672/, localPort= 54659]
+2019-04-04 17:16:41,579  INFO TomcatWebServer:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-04 17:16:41,579  INFO Demo1Application:59 - Started Demo1Application in 0.653 seconds (JVM running for 2319.693)
+2019-04-04 17:16:41,581  INFO ConditionEvaluationDeltaLoggingListener:70 - Condition evaluation unchanged
+2019-04-04 17:18:06,795  INFO SimpleMessageListenerContainer:586 - Waiting for workers to finish.
+2019-04-04 17:18:07,645  INFO SimpleMessageListenerContainer:589 - Successfully waited for workers to finish.
+2019-04-04 17:18:07,651  INFO SimpleMessageListenerContainer:1224 - Shutdown ignored - container is not active already
+2019-04-04 17:18:07,651  INFO ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-04 17:18:07,654  INFO DruidDataSource:1823 - {dataSource-5} closed
+2019-04-04 17:18:07,958  INFO DevToolsPropertyDefaultsPostProcessor:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-04 17:18:07,958  INFO DevToolsPropertyDefaultsPostProcessor:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-04 17:18:07,963  INFO Demo1Application:50 - Starting Demo1Application on PC-201902161946 with PID 5088 (C:\mycode\demov1\target\classes started by Administrator in C:\mycode\demov1)
+2019-04-04 17:18:07,963  INFO Demo1Application:675 - No active profile set, falling back to default profiles: default
+2019-04-04 17:18:08,137  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-04 17:18:08,137  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-04 17:18:08,141  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-04-04 17:18:08,172  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$63841fe0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-04 17:18:08,177  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9d1861b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-04 17:18:08,245  INFO TomcatWebServer:90 - Tomcat initialized with port(s): 8080 (http)
+2019-04-04 17:18:08,264  INFO ContextLoader:296 - Root WebApplicationContext: initialization completed in 297 ms
+2019-04-04 17:18:08,303  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-04 17:18:08,369  INFO DruidDataSource:928 - {dataSource-6} inited
+2019-04-04 17:18:08,444  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-04 17:18:08,532  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-04-04 17:18:08,554  INFO CachingConnectionFactory:460 - Attempting to connect to: [127.0.0.1:5672]
+2019-04-04 17:18:08,559  INFO CachingConnectionFactory:496 - Created new connection: rabbitConnectionFactory#40b4a394:0/SimpleConnection@1e66fe00 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 54686]
+2019-04-04 17:18:08,579  INFO TomcatWebServer:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-04 17:18:08,580  INFO Demo1Application:59 - Started Demo1Application in 0.632 seconds (JVM running for 2406.694)
+2019-04-04 17:18:08,582  INFO ConditionEvaluationDeltaLoggingListener:70 - Condition evaluation unchanged
+2019-04-04 17:18:23,081  INFO SimpleMessageListenerContainer:586 - Waiting for workers to finish.
+2019-04-04 17:18:23,587  INFO SimpleMessageListenerContainer:589 - Successfully waited for workers to finish.
+2019-04-04 17:18:23,591  INFO SimpleMessageListenerContainer:1224 - Shutdown ignored - container is not active already
+2019-04-04 17:18:23,592  INFO ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-04 17:18:23,595  INFO DruidDataSource:1823 - {dataSource-6} closed
+2019-04-04 17:18:23,902  INFO DevToolsPropertyDefaultsPostProcessor:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-04 17:18:23,902  INFO DevToolsPropertyDefaultsPostProcessor:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-04 17:18:23,907  INFO Demo1Application:50 - Starting Demo1Application on PC-201902161946 with PID 5088 (C:\mycode\demov1\target\classes started by Administrator in C:\mycode\demov1)
+2019-04-04 17:18:23,908  INFO Demo1Application:675 - No active profile set, falling back to default profiles: default
+2019-04-04 17:18:24,080  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-04 17:18:24,080  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-04 17:18:24,085  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-04-04 17:18:24,111  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$63841fe0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-04 17:18:24,114  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9d1861b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-04 17:18:24,184  INFO TomcatWebServer:90 - Tomcat initialized with port(s): 8080 (http)
+2019-04-04 17:18:24,200  INFO ContextLoader:296 - Root WebApplicationContext: initialization completed in 291 ms
+2019-04-04 17:18:24,242  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-04 17:18:24,311  INFO DruidDataSource:928 - {dataSource-7} inited
+2019-04-04 17:18:24,398  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-04 17:18:24,526  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-04-04 17:18:24,545  INFO CachingConnectionFactory:460 - Attempting to connect to: [127.0.0.1:5672]
+2019-04-04 17:18:24,550  INFO CachingConnectionFactory:496 - Created new connection: rabbitConnectionFactory#23f05636:0/SimpleConnection@7971d632 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 54705]
+2019-04-04 17:18:24,584  INFO TomcatWebServer:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-04 17:18:24,585  INFO Demo1Application:59 - Started Demo1Application in 0.694 seconds (JVM running for 2422.7)
+2019-04-04 17:18:24,588  INFO ConditionEvaluationDeltaLoggingListener:70 - Condition evaluation unchanged
+2019-04-04 17:19:02,607  INFO DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2019-04-04 17:19:02,611  INFO DispatcherServlet:546 - Completed initialization in 4 ms
+2019-04-04 17:19:02,616  INFO UserController:49 - getInfoUser [Hash = -2066851426, id=631277408900616192, user_name=何玺斌2, address_id=null, create_time=null, update_time=null]
+2019-04-04 17:19:23,564  INFO SimpleMessageListenerContainer:586 - Waiting for workers to finish.
+2019-04-04 17:19:23,615  INFO SimpleMessageListenerContainer:589 - Successfully waited for workers to finish.
+2019-04-04 17:19:23,616  INFO SimpleMessageListenerContainer:1224 - Shutdown ignored - container is not active already
+2019-04-04 17:19:23,619  INFO ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-04 17:19:23,623  INFO DruidDataSource:1823 - {dataSource-7} closed
+2019-04-04 17:19:24,000  INFO DevToolsPropertyDefaultsPostProcessor:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-04 17:19:24,000  INFO DevToolsPropertyDefaultsPostProcessor:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-04 17:19:24,011  INFO Demo1Application:50 - Starting Demo1Application on PC-201902161946 with PID 5088 (C:\mycode\demov1\target\classes started by Administrator in C:\mycode\demov1)
+2019-04-04 17:19:24,012  INFO Demo1Application:675 - No active profile set, falling back to default profiles: default
+2019-04-04 17:19:24,222  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-04 17:19:24,222  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-04 17:19:24,226  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-04-04 17:19:24,260  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$63841fe0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-04 17:19:24,263  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9d1861b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-04 17:19:24,331  INFO TomcatWebServer:90 - Tomcat initialized with port(s): 8080 (http)
+2019-04-04 17:19:24,347  INFO ContextLoader:296 - Root WebApplicationContext: initialization completed in 333 ms
+2019-04-04 17:19:24,390  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-04 17:19:24,462  INFO DruidDataSource:928 - {dataSource-8} inited
+2019-04-04 17:19:24,554  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-04 17:19:24,642  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-04-04 17:19:24,666  INFO CachingConnectionFactory:460 - Attempting to connect to: [127.0.0.1:5672]
+2019-04-04 17:19:24,673  INFO CachingConnectionFactory:496 - Created new connection: rabbitConnectionFactory#10aab973:0/SimpleConnection@6a85dc6 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 54740]
+2019-04-04 17:19:24,692  INFO TomcatWebServer:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-04 17:19:24,694  INFO Demo1Application:59 - Started Demo1Application in 0.711 seconds (JVM running for 2482.808)
+2019-04-04 17:19:24,698  INFO ConditionEvaluationDeltaLoggingListener:70 - Condition evaluation unchanged
+2019-04-04 17:20:04,922  INFO DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2019-04-04 17:20:04,928  INFO DispatcherServlet:546 - Completed initialization in 6 ms
+2019-04-04 17:20:04,932  INFO UserController:49 - getInfoUser [Hash = -2066851426, id=631277408900616192, user_name=何玺斌2, address_id=null, create_time=null, update_time=null]
+2019-04-04 17:20:43,068  INFO UserController:49 - getInfoUser [Hash = -292619240, id=null, user_name=何玺斌, address_id=null, create_time=null, update_time=null]
+2019-04-04 17:21:26,955  INFO UserController:35 - getUserById631278229558136832
+2019-04-04 17:22:06,415  INFO Version:21 - HV000001: Hibernate Validator 6.0.14.Final
+2019-04-04 17:22:06,607  INFO Demo1Application:50 - Starting Demo1Application on PC-201902161946 with PID 8884 (C:\mycode\demov1\target\classes started by Administrator in C:\mycode\demov1)
+2019-04-04 17:22:06,608  INFO Demo1Application:675 - No active profile set, falling back to default profiles: default
+2019-04-04 17:22:06,660  INFO DevToolsPropertyDefaultsPostProcessor:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-04 17:22:06,661  INFO DevToolsPropertyDefaultsPostProcessor:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-04 17:22:07,645  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-04 17:22:07,647  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-04 17:22:07,669  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-04-04 17:22:07,955  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$e9122b6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-04 17:22:07,985  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$48256488] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-04 17:22:08,386  INFO TomcatWebServer:90 - Tomcat initialized with port(s): 8080 (http)
+2019-04-04 17:22:08,523  INFO ContextLoader:296 - Root WebApplicationContext: initialization completed in 1862 ms
+2019-04-04 17:22:08,731  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-04 17:22:09,041  INFO DruidDataSource:928 - {dataSource-1} inited
+2019-04-04 17:22:09,326  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-04 17:22:09,638  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-04-04 17:22:09,712  INFO CachingConnectionFactory:460 - Attempting to connect to: [127.0.0.1:5672]
+2019-04-04 17:22:09,738  INFO CachingConnectionFactory:496 - Created new connection: rabbitConnectionFactory#6070df2:0/SimpleConnection@469be5ab [delegate=amqp://guest@127.0.0.1:5672/, localPort= 54830]
+2019-04-04 17:22:09,799  INFO TomcatWebServer:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-04 17:22:09,803  INFO Demo1Application:59 - Started Demo1Application in 3.479 seconds (JVM running for 4.229)
+2019-04-04 17:22:12,800  INFO DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2019-04-04 17:22:12,808  INFO DispatcherServlet:546 - Completed initialization in 8 ms
+2019-04-04 17:22:12,833  INFO UserController:35 - getUserById631278229558136832
+2019-04-04 17:22:34,942  WARN DefaultHandlerExceptionResolver:197 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2019-04-04 17:22:40,665  INFO UserController:50 - updateUserUser [Hash = -1020823838, id=631277408900616192, user_name=何玺斌, address_id=null, create_time=null, update_time=null]
+2019-04-04 17:22:55,499  INFO SimpleMessageListenerContainer:586 - Waiting for workers to finish.
+2019-04-04 17:22:55,825  INFO SimpleMessageListenerContainer:589 - Successfully waited for workers to finish.
+2019-04-04 17:22:55,828  INFO SimpleMessageListenerContainer:1224 - Shutdown ignored - container is not active already
+2019-04-04 17:22:55,829  INFO ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-04 17:22:55,832  INFO DruidDataSource:1823 - {dataSource-1} closed
+2019-04-04 17:22:56,157  INFO DevToolsPropertyDefaultsPostProcessor:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-04 17:22:56,158  INFO DevToolsPropertyDefaultsPostProcessor:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-04 17:22:56,163  INFO Demo1Application:50 - Starting Demo1Application on PC-201902161946 with PID 8884 (C:\mycode\demov1\target\classes started by Administrator in C:\mycode\demov1)
+2019-04-04 17:22:56,164  INFO Demo1Application:675 - No active profile set, falling back to default profiles: default
+2019-04-04 17:22:56,353  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-04 17:22:56,353  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-04 17:22:56,358  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-04-04 17:22:56,400  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$e9122b6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-04 17:22:56,404  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$48256488] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-04 17:22:56,477  INFO TomcatWebServer:90 - Tomcat initialized with port(s): 8080 (http)
+2019-04-04 17:22:56,496  INFO ContextLoader:296 - Root WebApplicationContext: initialization completed in 331 ms
+2019-04-04 17:22:56,543  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-04 17:22:56,609  INFO DruidDataSource:928 - {dataSource-2} inited
+2019-04-04 17:22:56,708  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-04 17:22:56,802  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-04-04 17:22:56,833  INFO CachingConnectionFactory:460 - Attempting to connect to: [127.0.0.1:5672]
+2019-04-04 17:22:56,838  INFO CachingConnectionFactory:496 - Created new connection: rabbitConnectionFactory#a028af4:0/SimpleConnection@24fc10b4 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 54859]
+2019-04-04 17:22:56,858  INFO TomcatWebServer:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-04 17:22:56,859  INFO Demo1Application:59 - Started Demo1Application in 0.712 seconds (JVM running for 51.286)
+2019-04-04 17:22:56,861  INFO ConditionEvaluationDeltaLoggingListener:70 - Condition evaluation unchanged
