@@ -18,7 +18,7 @@ public class BaseDto implements Serializable {
 
     public BaseDto(boolean success) {
         if(success) {
-            this.code = "0";
+            this.code = "200";
             this.message = "OK";
         }else {
             this.code = "500";
@@ -28,7 +28,7 @@ public class BaseDto implements Serializable {
 
     public BaseDto(boolean success, String message) {
         if(success) {
-            this.code = "0";
+            this.code = "200";
         }else {
             this.code = "500";
         }
@@ -42,7 +42,7 @@ public class BaseDto implements Serializable {
 
     public void generateBaseDTO(boolean success) {
         if(success) {
-            this.code = "0";
+            this.code = "200";
             this.message = "OK";
         }else {
             this.code = "500";

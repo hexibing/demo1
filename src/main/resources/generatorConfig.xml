@@ -3,33 +3,50 @@
         PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
         "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
 <generatorConfiguration>
-    <!--导入属性配置-->
-    <properties resource="application.properties"></properties>
+    <!-- 配置文件 -->
+    <properties resource="generator.properties"></properties>
 
-    <!--指定特定数据库的jdbc驱动jar包的位置-->
-    <!--<classPathEntry location="${jdbc.driverLocation}"/>-->
+    <!-- 驱动包 -->
+    <classPathEntry location="${classPathEntry}"/>
 
-    <context id="default" targetRuntime="MyBatis3">
+    <context id="MysqlContext" targetRuntime="MyBatis3" defaultModelType="flat">
 
-        <!-- optional，旨在创建class时，对注释进行控制 -->
+
+
+        <property name="javaFileEncoding" value="UTF-8"/>
+        <!-- 由于beginningDelimiter和endingDelimiter的默认值为双引号(")，在Mysql中不能这么写，所以还要将这两个默认值改为`  -->
+        <property name="beginningDelimiter" value="`"/>
+        <property name="endingDelimiter" value="`"/>
+
+        <property name="useActualColumnNames" value="false"/>
+
+        <!-- 为生成的Java模型创建一个toString方法 -->
+        <plugin type="org.mybatis.generator.plugins.ToStringPlugin"></plugin>
+
+        <!-- 为生成的Java模型类添加序列化接口，并生成serialVersionUID字段 -->
+        <plugin type="org.mybatis.generator.plugins.SerializablePlugin"></plugin>
+
+        <!-- 生成一个新的selectByExample方法，这个方法可以接收offset和limit参数，主要用来实现分页 -->
+        <plugin type="org.mybatis.generator.plugins.RowBoundsPlugin"></plugin>
+
+        <!-- Java模型生成equals和hashcode方法 -->
+        <plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin"></plugin>
+
+
+
+
+
+
+        <!-- 生成的代码去掉注释 -->
         <commentGenerator>
-            <property name="suppressDate" value="true"/>
             <property name="suppressAllComments" value="true"/>
         </commentGenerator>
 
-        <!--jdbc的数据库连接 -->
-        <jdbcConnection
-                driverClass="${spring.datasource.driver-class-name}"
-                connectionURL="${spring.datasource.url}"
-                userId="${spring.datasource.username}"
-                password="${spring.datasource.password}">
-        </jdbcConnection>
-
-
-        <!-- 非必需，类型处理器，在数据库类型和java类型之间的转换控制-->
-        <javaTypeResolver>
-            <property name="forceBigDecimals" value="false"/>
-        </javaTypeResolver>
+        <!-- 数据库连接 -->
+        <jdbcConnection driverClass="${generator.jdbc.driver}"
+                        connectionURL="${generator.jdbc.url}"
+                        userId="${generator.jdbc.username}"
+                        password="${generator.jdbc.password}"/>
 
 
         <!-- Model模型生成器,用来生成含有主键key的类，记录类 以及查询Example类
@@ -66,10 +83,8 @@
         </javaClientGenerator>
 
 
-        <table tableName="t_user" domainObjectName="User"
-               enableCountByExample="false" enableUpdateByExample="false"
-               enableDeleteByExample="false" enableSelectByExample="false"
-               selectByExampleQueryId="false">
+        <table tableName="t_user" domainObjectName="User">
+            <property name="useActualColumnNames" value="true"/>
         </table>
 
     </context>

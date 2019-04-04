@@ -29,8 +29,8 @@ public class MQReceiver {
         String user_id = object.getString("id");
         log.info("user_id="+user_id);
         User user=userService.getUserInfo(user_id);
-        user.setUserName("何玺斌");
-        user.setUpdateTime(new Date());
+        user.setUser_name("何玺斌");
+        user.setUpdate_time(new Date());
         userService.updateUserInfo(user);
         log.info("update_success"+user.toString());
         System.out.println("Receiver1:"+user_str);

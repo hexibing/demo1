@@ -27,7 +27,7 @@ public class ScheduledTask {
         //发送者
         mainMessage.setFrom("mrhexibing@163.com");
         //接收者
-        mainMessage.setTo("591465705@qq.com");
+        mainMessage.setTo("1057420022@qq.com");
         //发送的标题
 //        String title=" 你的辣条好好吃哦！小老板";
         String title="免费介绍对象";

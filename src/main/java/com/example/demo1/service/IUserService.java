@@ -7,9 +7,17 @@ import org.apache.ibatis.annotations.Mapper;
 
 public interface IUserService {
 
-    public User getUserInfo(String user_id);
+    User getUserInfo(String user_id);
 
-    public UserDto getUserDto(String user_id);
+    UserDto getUserDto(String user_id);
 
-    public void updateUserInfo(User user);
+    void updateUserInfo(User user);
+
+    void addUser(User user);
+
+    void deleteUser(String user_id);
+
+    User getUserByExample(User user);
+
+
 }

@@ -1,25 +1,27 @@
 package com.example.demo1.model;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
-
+import java.io.Serializable;
 import java.util.Date;
 
-public class User {
+public class User implements Serializable {
     private String id;
 
-    private String userName;
+    private String user_name;
 
-    private Integer addressId;
+    private Integer address_id;
 
-    private Date createTime;
-    private Date updateTime;
+    private Date create_time;
 
-    public User(String id, String userName, Integer addressId, Date createTime, Date updateTime) {
+    private Date update_time;
+
+    private static final long serialVersionUID = 1L;
+
+    public User(String id, String user_name, Integer address_id, Date create_time, Date update_time) {
         this.id = id;
-        this.userName = userName;
-        this.addressId = addressId;
-        this.createTime = createTime;
-        this.updateTime = updateTime;
+        this.user_name = user_name;
+        this.address_id = address_id;
+        this.create_time = create_time;
+        this.update_time = update_time;
     }
 
     public User() {
@@ -34,47 +36,81 @@ public class User {
         this.id = id == null ? null : id.trim();
     }
 
-    public String getUserName() {
-        return userName;
+    public String getUser_name() {
+        return user_name;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName == null ? null : userName.trim();
+    public void setUser_name(String user_name) {
+        this.user_name = user_name == null ? null : user_name.trim();
     }
 
-    public Integer getAddressId() {
-        return addressId;
+    public Integer getAddress_id() {
+        return address_id;
     }
 
-    public void setAddressId(Integer addressId) {
-        this.addressId = addressId;
+    public void setAddress_id(Integer address_id) {
+        this.address_id = address_id;
     }
 
-    public Date getCreateTime() {
-        return createTime;
+    public Date getCreate_time() {
+        return create_time;
     }
 
-    public void setCreateTime(Date createTime) {
-        this.createTime = createTime;
+    public void setCreate_time(Date create_time) {
+        this.create_time = create_time;
     }
 
-    public Date getUpdateTime() {
-        return updateTime;
+    public Date getUpdate_time() {
+        return update_time;
     }
 
-    public void setUpdateTime(Date updateTime) {
-        this.updateTime = updateTime;
+    public void setUpdate_time(Date update_time) {
+        this.update_time = update_time;
     }
-
 
     @Override
     public String toString() {
-        return "User{" +
-                "id='" + id + '\'' +
-                ", userName='" + userName + '\'' +
-                ", addressId=" + addressId +
-                ", createTime=" + createTime +
-                ", updateTime=" + updateTime +
-                '}';
+        StringBuilder sb = new StringBuilder();
+        sb.append(getClass().getSimpleName());
+        sb.append(" [");
+        sb.append("Hash = ").append(hashCode());
+        sb.append(", id=").append(id);
+        sb.append(", user_name=").append(user_name);
+        sb.append(", address_id=").append(address_id);
+        sb.append(", create_time=").append(create_time);
+        sb.append(", update_time=").append(update_time);
+        sb.append("]");
+        return sb.toString();
+    }
+
+    @Override
+    public boolean equals(Object that) {
+        if (this == that) {
+            return true;
+        }
+        if (that == null) {
+            return false;
+        }
+        if (getClass() != that.getClass()) {
+            return false;
+        }
+        User other = (User) that;
+        return (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
+            && (this.getUser_name() == null ? other.getUser_name() == null : this.getUser_name().equals(other.getUser_name()))
+            && (this.getAddress_id() == null ? other.getAddress_id() == null : this.getAddress_id().equals(other.getAddress_id()))
+            && (this.getCreate_time() == null ? other.getCreate_time() == null : this.getCreate_time().equals(other.getCreate_time()))
+            && (this.getUpdate_time() == null ? other.getUpdate_time() == null : this.getUpdate_time().equals(other.getUpdate_time()));
+    }
+
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + ((getId() == null) ? 0 : getId().hashCode());
+        result = prime * result + ((getUser_name() == null) ? 0 : getUser_name().hashCode());
+        result = prime * result + ((getAddress_id() == null) ? 0 : getAddress_id().hashCode());
+        result = prime * result + ((getCreate_time() == null) ? 0 : getCreate_time().hashCode());
+        result = prime * result + ((getUpdate_time() == null) ? 0 : getUpdate_time().hashCode());
+        return result;
     }
 }
