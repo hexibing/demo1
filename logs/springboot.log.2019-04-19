@@ -1,0 +1,240 @@
+2019-04-19 14:08:35,216  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:08:35,222  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:08:35,250  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+2019-04-19 14:08:35,260  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:08:35,261  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:08:35,280  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-04-19 14:08:36,263  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-19 14:08:36,543  INFO DruidDataSource:928 - {dataSource-1} inited
+2019-04-19 14:08:38,717  INFO TransportClientFactoryBean:88 - Adding transport node : 127.0.0.1:9300
+2019-04-19 14:09:37,343  INFO DruidDataSource:1823 - {dataSource-1} closed
+2019-04-19 14:09:42,761  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:09:42,786  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:09:42,848  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 37ms. Found 0 repository interfaces.
+2019-04-19 14:09:42,859  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:09:42,860  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:09:42,883  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-04-19 14:09:43,847  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-19 14:09:44,174  INFO DruidDataSource:928 - {dataSource-1} inited
+2019-04-19 14:09:46,337  INFO TransportClientFactoryBean:88 - Adding transport node : 127.0.0.1:9300
+2019-04-19 14:11:13,073  INFO UserController:57 - getInfoUser [Hash = -292619240, id=null, user_name=何玺斌, address_id=null, create_time=null, update_time=null]
+2019-04-19 14:12:32,196  INFO DruidDataSource:1823 - {dataSource-1} closed
+2019-04-19 14:12:32,914  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:12:32,914  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:12:32,924  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-04-19 14:12:32,926  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:12:32,926  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:12:32,933  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-04-19 14:12:33,147  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-19 14:12:33,222  INFO DruidDataSource:928 - {dataSource-2} inited
+2019-04-19 14:12:33,448  INFO TransportClientFactoryBean:88 - Adding transport node : 127.0.0.1:9300
+2019-04-19 14:12:47,580  INFO DruidDataSource:1823 - {dataSource-2} closed
+2019-04-19 14:12:48,169  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:12:48,169  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:12:48,177  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-04-19 14:12:48,178  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:12:48,179  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:12:48,186  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-04-19 14:12:48,358  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-19 14:12:48,429  INFO DruidDataSource:928 - {dataSource-3} inited
+2019-04-19 14:12:48,655  INFO TransportClientFactoryBean:88 - Adding transport node : 127.0.0.1:9300
+2019-04-19 14:13:59,869  INFO DruidDataSource:1823 - {dataSource-3} closed
+2019-04-19 14:14:00,478  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:14:00,478  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:14:00,486  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-04-19 14:14:00,487  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:14:00,487  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:14:00,494  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-04-19 14:14:00,671  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-19 14:14:00,740  INFO DruidDataSource:928 - {dataSource-4} inited
+2019-04-19 14:14:00,998  INFO TransportClientFactoryBean:88 - Adding transport node : 127.0.0.1:9300
+2019-04-19 14:15:02,060  INFO DruidDataSource:1823 - {dataSource-4} closed
+2019-04-19 14:15:02,592  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:15:02,592  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:15:02,600  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-04-19 14:15:02,601  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:15:02,601  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:15:02,607  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-04-19 14:15:02,782  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-19 14:15:02,850  INFO DruidDataSource:928 - {dataSource-5} inited
+2019-04-19 14:15:03,054  INFO TransportClientFactoryBean:88 - Adding transport node : 127.0.0.1:9300
+2019-04-19 14:15:28,194  INFO DruidDataSource:1823 - {dataSource-5} closed
+2019-04-19 14:15:28,701  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:15:28,701  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:15:28,709  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-04-19 14:15:28,710  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:15:28,710  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:15:28,716  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-04-19 14:15:28,881  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-19 14:15:28,948  INFO DruidDataSource:928 - {dataSource-6} inited
+2019-04-19 14:15:29,138  INFO TransportClientFactoryBean:88 - Adding transport node : 127.0.0.1:9300
+2019-04-19 14:15:54,153  INFO DruidDataSource:1823 - {dataSource-6} closed
+2019-04-19 14:15:54,683  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:15:54,684  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:15:54,694  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-04-19 14:15:54,695  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:15:54,695  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:15:54,702  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-04-19 14:15:54,876  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-19 14:15:54,949  INFO DruidDataSource:928 - {dataSource-7} inited
+2019-04-19 14:15:55,140  INFO TransportClientFactoryBean:88 - Adding transport node : 127.0.0.1:9300
+2019-04-19 14:16:02,657  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:16:02,660  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:16:02,683  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+2019-04-19 14:16:02,689  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:16:02,690  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:16:02,703  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-04-19 14:16:03,519  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-19 14:16:03,786  INFO DruidDataSource:928 - {dataSource-1} inited
+2019-04-19 14:16:05,715  INFO TransportClientFactoryBean:88 - Adding transport node : 127.0.0.1:9300
+2019-04-19 14:17:12,410  INFO DruidDataSource:1823 - {dataSource-1} closed
+2019-04-19 14:17:13,055  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:17:13,055  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:17:13,070  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-04-19 14:17:13,072  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:17:13,072  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:17:13,078  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-04-19 14:17:13,264  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-19 14:17:13,338  INFO DruidDataSource:928 - {dataSource-2} inited
+2019-04-19 14:17:18,050  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:17:18,053  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:17:18,076  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+2019-04-19 14:17:18,083  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:17:18,084  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:17:18,099  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-04-19 14:17:18,948  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-19 14:17:19,212  INFO DruidDataSource:928 - {dataSource-1} inited
+2019-04-19 14:17:21,133  INFO TransportClientFactoryBean:88 - Adding transport node : 127.0.0.1:9300
+2019-04-19 14:18:00,750  INFO DruidDataSource:1823 - {dataSource-1} closed
+2019-04-19 14:18:01,382  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:18:01,383  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:18:01,393  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-04-19 14:18:01,394  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:18:01,394  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:18:01,401  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-04-19 14:18:01,601  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-19 14:18:01,673  INFO DruidDataSource:928 - {dataSource-2} inited
+2019-04-19 14:18:01,905  INFO TransportClientFactoryBean:88 - Adding transport node : 127.0.0.1:9300
+2019-04-19 14:18:08,208  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:18:08,212  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:18:08,237  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+2019-04-19 14:18:08,243  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:18:08,244  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:18:08,260  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-04-19 14:18:09,115  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-19 14:18:09,404  INFO DruidDataSource:928 - {dataSource-1} inited
+2019-04-19 14:18:11,566  INFO TransportClientFactoryBean:88 - Adding transport node : 127.0.0.1:9300
+2019-04-19 14:19:01,003  INFO DruidDataSource:1823 - {dataSource-1} closed
+2019-04-19 14:19:01,621  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:19:01,621  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:19:01,629  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-04-19 14:19:01,631  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:19:01,631  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:19:01,638  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-04-19 14:19:01,838  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-19 14:19:01,915  INFO DruidDataSource:928 - {dataSource-2} inited
+2019-04-19 14:19:02,163  INFO TransportClientFactoryBean:88 - Adding transport node : 127.0.0.1:9300
+2019-04-19 14:19:08,171  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:19:08,176  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:19:08,198  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+2019-04-19 14:19:08,205  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:19:08,205  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:19:08,223  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-04-19 14:19:09,063  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-19 14:19:09,331  INFO DruidDataSource:928 - {dataSource-1} inited
+2019-04-19 14:19:11,478  INFO TransportClientFactoryBean:88 - Adding transport node : 127.0.0.1:9300
+2019-04-19 14:19:35,813  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:19:35,816  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:19:35,837  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2019-04-19 14:19:35,847  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:19:35,848  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:19:35,861  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-04-19 14:19:36,736  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-19 14:19:37,015  INFO DruidDataSource:928 - {dataSource-1} inited
+2019-04-19 14:19:38,900  INFO TransportClientFactoryBean:88 - Adding transport node : 127.0.0.1:9300
+2019-04-19 14:19:51,903  INFO UserController:57 - getInfoUser [Hash = -292619240, id=null, user_name=何玺斌, address_id=null, create_time=null, update_time=null]
+2019-04-19 14:20:51,333  INFO DruidDataSource:1823 - {dataSource-1} closed
+2019-04-19 14:20:51,943  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:20:51,944  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:20:51,954  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-04-19 14:20:51,956  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:20:51,956  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:20:51,964  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-04-19 14:20:52,150  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-19 14:20:52,224  INFO DruidDataSource:928 - {dataSource-2} inited
+2019-04-19 14:20:52,448  INFO TransportClientFactoryBean:88 - Adding transport node : 127.0.0.1:9300
+2019-04-19 14:22:13,659  INFO DruidDataSource:1823 - {dataSource-2} closed
+2019-04-19 14:22:14,273  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:22:14,273  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:22:14,281  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-04-19 14:22:14,282  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:22:14,283  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:22:14,289  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-04-19 14:22:14,471  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-19 14:22:14,546  INFO DruidDataSource:928 - {dataSource-3} inited
+2019-04-19 14:22:14,737  INFO TransportClientFactoryBean:88 - Adding transport node : 127.0.0.1:9300
+2019-04-19 14:23:05,919  INFO DruidDataSource:1823 - {dataSource-3} closed
+2019-04-19 14:23:06,474  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:23:06,474  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:23:06,482  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-04-19 14:23:06,483  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:23:06,483  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:23:06,490  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-04-19 14:23:06,676  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-19 14:23:06,746  INFO DruidDataSource:928 - {dataSource-4} inited
+2019-04-19 14:23:06,961  INFO TransportClientFactoryBean:88 - Adding transport node : 127.0.0.1:9300
+2019-04-19 14:23:14,442  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:23:14,445  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:23:14,481  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+2019-04-19 14:23:14,489  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:23:14,490  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:23:14,506  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-04-19 14:23:15,339  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-19 14:23:15,601  INFO DruidDataSource:928 - {dataSource-1} inited
+2019-04-19 14:23:17,506  INFO TransportClientFactoryBean:88 - Adding transport node : 127.0.0.1:9300
+2019-04-19 14:24:22,381  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:24:22,385  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:24:22,404  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2019-04-19 14:24:22,410  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:24:22,411  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:24:22,425  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-04-19 14:24:23,311  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-19 14:24:23,593  INFO DruidDataSource:928 - {dataSource-1} inited
+2019-04-19 14:24:25,736  INFO TransportClientFactoryBean:88 - Adding transport node : 127.0.0.1:9300
+2019-04-19 14:24:49,335  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:24:49,338  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:24:49,358  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+2019-04-19 14:24:49,367  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:24:49,368  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:24:49,382  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-04-19 14:24:50,255  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-19 14:24:50,512  INFO DruidDataSource:928 - {dataSource-1} inited
+2019-04-19 14:24:52,400  INFO TransportClientFactoryBean:88 - Adding transport node : 127.0.0.1:9300
+2019-04-19 14:25:48,125  INFO DruidDataSource:1823 - {dataSource-1} closed
+2019-04-19 14:25:48,786  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:25:48,787  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:25:48,795  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-04-19 14:25:48,796  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:25:48,796  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:25:48,804  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-04-19 14:25:49,055  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-19 14:25:49,189  INFO DruidDataSource:928 - {dataSource-2} inited
+2019-04-19 14:25:49,427  INFO TransportClientFactoryBean:88 - Adding transport node : 127.0.0.1:9300
+2019-04-19 14:25:56,119  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:25:56,122  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:25:56,143  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2019-04-19 14:25:56,149  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:25:56,150  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:25:56,164  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-04-19 14:25:57,010  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-19 14:25:57,288  INFO DruidDataSource:928 - {dataSource-1} inited
+2019-04-19 14:25:59,426  INFO TransportClientFactoryBean:88 - Adding transport node : 127.0.0.1:9300
+2019-04-19 14:26:27,600  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:26:27,603  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:26:27,624  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2019-04-19 14:26:27,634  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-19 14:26:27,635  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-19 14:26:27,650  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-04-19 14:26:28,507  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-19 14:26:28,769  INFO DruidDataSource:928 - {dataSource-1} inited
+2019-04-19 14:26:30,670  INFO TransportClientFactoryBean:88 - Adding transport node : 127.0.0.1:9300

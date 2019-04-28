@@ -83,7 +83,20 @@
         </javaClientGenerator>
 
 
-        <table tableName="t_user" domainObjectName="User">
+        <!--<table tableName="t_user" domainObjectName="User">-->
+            <!--<property name="useActualColumnNames" value="true"/>-->
+        <!--</table>-->
+
+        <!--<table tableName="t_good" domainObjectName="Good">-->
+            <!--<property name="useActualColumnNames" value="true"/>-->
+        <!--</table>-->
+
+        <table tableName="t_batch" domainObjectName="Batch">
+        <property name="useActualColumnNames" value="true"/>
+        </table>
+
+
+        <table tableName="t_coupon" domainObjectName="Coupon">
             <property name="useActualColumnNames" value="true"/>
         </table>
 

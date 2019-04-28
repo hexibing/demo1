@@ -9,7 +9,6 @@ import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.session.RowBounds;
 
 
-@Mapper
 public interface UserMapper {
     int countByExample(UserExample example);
 

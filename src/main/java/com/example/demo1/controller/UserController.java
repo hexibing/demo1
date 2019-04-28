@@ -4,7 +4,6 @@ import com.example.demo1.ConfigDto.BaseDto;
 import com.example.demo1.dto.UserDto;
 import com.example.demo1.model.User;
 import com.example.demo1.service.IUserService;
-import org.apache.ibatis.annotations.Param;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

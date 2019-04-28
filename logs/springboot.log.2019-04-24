@@ -1,0 +1,20 @@
+2019-04-24 20:25:31,263  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 20:25:31,269  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 20:25:31,306  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 29ms. Found 0 repository interfaces.
+2019-04-24 20:25:31,320  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 20:25:31,321  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 20:25:31,356  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-04-24 20:25:32,056  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-24 20:25:32,763  INFO DruidDataSource:928 - {dataSource-1} inited
+2019-04-24 20:25:37,790  INFO TransportClientFactoryBean:88 - Adding transport node : 127.0.0.1:9300
+2019-04-24 20:25:42,195  INFO DruidDataSource:1823 - {dataSource-1} closed
+2019-04-24 20:26:42,167  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 20:26:42,172  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 20:26:42,207  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+2019-04-24 20:26:42,220  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 20:26:42,224  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 20:26:42,242  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-04-24 20:26:42,854  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-04-24 20:26:43,354  INFO DruidDataSource:928 - {dataSource-1} inited
+2019-04-24 20:26:47,532  INFO TransportClientFactoryBean:88 - Adding transport node : 127.0.0.1:9300
+2019-04-24 20:26:51,458  INFO DruidDataSource:1823 - {dataSource-1} closed
