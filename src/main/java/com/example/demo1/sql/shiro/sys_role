@@ -1,0 +1,9 @@
+CREATE TABLE `sys_role` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT 'ID',
+  `roleName` varchar(200) DEFAULT NULL COMMENT '角色名',
+  `createDateTime` datetime DEFAULT NULL COMMENT '创建时间',
+  `updateDateTime` datetime DEFAULT NULL COMMENT '更新时间',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `unique_sys_role_roleName` (`roleName`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+

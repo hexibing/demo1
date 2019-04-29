@@ -1,0 +1,9 @@
+CREATE TABLE `sys_role_menu` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT 'ID',
+  `roleId` bigint(20) DEFAULT NULL COMMENT '角色ID',
+  `menuId` bigint(20) DEFAULT NULL COMMENT '菜单ID',
+  PRIMARY KEY (`id`),
+  KEY `idx_roleId` (`roleId`),
+  KEY `idx_menuId` (`menuId`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+

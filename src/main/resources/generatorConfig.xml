@@ -90,15 +90,32 @@
         <!--<table tableName="t_good" domainObjectName="Good">-->
             <!--<property name="useActualColumnNames" value="true"/>-->
         <!--</table>-->
+        <!--<table tableName="t_batch" domainObjectName="Batch">
+                <property name="useActualColumnNames" value="true"/>
+                </table>-->
+        <!--  <table tableName="t_coupon" domainObjectName="Coupon">
+              <property name="useActualColumnNames" value="true"/>
+          </table>-->
 
-        <table tableName="t_batch" domainObjectName="Batch">
-        <property name="useActualColumnNames" value="true"/>
-        </table>
+        <table tableName="sys_manager" domainObjectName="Manager">
+              <property name="useActualColumnNames" value="true"/>
+          </table>
 
-
-        <table tableName="t_coupon" domainObjectName="Coupon">
+        <table tableName="sys_manager_role" domainObjectName="ManagerRole">
             <property name="useActualColumnNames" value="true"/>
         </table>
 
-    </context>
-</generatorConfiguration>
+        <table tableName="sys_menu" domainObjectName="Menu">
+            <property name="useActualColumnNames" value="true"/>
+        </table>
+
+        <table tableName="sys_role" domainObjectName="Role">
+            <property name="useActualColumnNames" value="true"/>
+        </table>
+
+        <table tableName="sys_role_menu" domainObjectName="RoleMenu">
+            <property name="useActualColumnNames" value="true"/>
+        </table>
+
+      </context>
+  </generatorConfiguration>
