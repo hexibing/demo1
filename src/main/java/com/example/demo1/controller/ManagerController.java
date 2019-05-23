@@ -105,13 +105,20 @@ public class ManagerController {
         return new BaseDto(true);
     }
 
-    @RequestMapping(value = "/addManager.do", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
-    @ResponseBody
-    public BaseDto addManager(@RequestBody @Validated Manager manager,HttpServletRequest request){
-        long managerId=sessionUtil.getManagerId(request);
+    // @RequestMapping(value = "/addManager.do", method = RequestMethod.POST, produces = "application/json;charset=UTF-8")
+     @RequestMapping (value = "/addManager.do",method = {RequestMethod.GET,RequestMethod.POST})
+    public BaseDto addManager(@RequestBody  Manager manager){
+//        long managerId=sessionUtil.getManagerId(request);
+        long managerId=12;
         manager.setDescription(managerId+"操作员ID");
         managerService.addManager(manager);
         return  new BaseDto(true);
+    }
+
+
+    @RequestMapping(value = "/noauth", method = RequestMethod.GET)
+    public String noauth(){
+        return  "没有权限";
     }
 
 

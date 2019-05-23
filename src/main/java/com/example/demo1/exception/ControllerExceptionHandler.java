@@ -1,5 +1,6 @@
 package com.example.demo1.exception;
 
+import com.example.demo1.controller.ManagerController;
 import com.example.demo1.enums.SystemRespCode;
 import com.example.demo1.response.SystemResp;
 import org.apache.commons.codec.Charsets;
@@ -16,7 +17,8 @@ import javax.servlet.http.HttpServletResponse;
 @ControllerAdvice
 public class ControllerExceptionHandler {
     private static final int RESPONSE_STATUS = 200;
-    protected final Logger log = Logger.getLogger(getClass());
+
+    private static Logger log= Logger.getLogger(ControllerExceptionHandler.class);
 
     @ExceptionHandler(ServiceException.class)
     public String handleException(HttpServletRequest request, HttpServletResponse response, ServiceException e) throws Exception {

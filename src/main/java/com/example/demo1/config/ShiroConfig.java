@@ -146,9 +146,10 @@ public class ShiroConfig {
     public ShiroFilterFactoryBean shiroFilter(SecurityManager securityManager) {
         ShiroFilterFactoryBean shiroFilterFactoryBean = new ShiroFilterFactoryBean();
         shiroFilterFactoryBean.setSecurityManager(securityManager);
-//        shiroFilterFactoryBean.setLoginUrl("/manager/login.do");
-        shiroFilterFactoryBean.setLoginUrl("/login");
+        shiroFilterFactoryBean.setLoginUrl("/manager/login.do");
+//        shiroFilterFactoryBean.setLoginUrl("/login");
         shiroFilterFactoryBean.setSuccessUrl("/");
+        shiroFilterFactoryBean.setUnauthorizedUrl("/manager/noauth");
         shiroFilterFactoryBean.setUnauthorizedUrl("/unauth");
 
         //注意此处使用的是LinkedHashMap，是有顺序的，shiro会按从上到下的顺序匹配验证，匹配了就不再继续验证
