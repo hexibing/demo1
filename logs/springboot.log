@@ -3331,3 +3331,234 @@ com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'creat
 2019-11-29 15:12:39,729  INFO DispatcherServlet:546 - Completed initialization in 9 ms
 2019-11-29 15:12:39,768  INFO UserController:29 - aaaa
 2019-11-29 15:12:40,219  INFO UserController:29 - aaaa
+2019-11-29 15:29:00,280  INFO ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-29 15:29:00,284  INFO DruidDataSource:1823 - {dataSource-1} closed
+2019-11-29 15:29:00,878  INFO DevToolsPropertyDefaultsPostProcessor:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-29 15:29:00,878  INFO DevToolsPropertyDefaultsPostProcessor:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-29 15:29:00,887  INFO LucklyBabyApplication:50 - Starting LucklyBabyApplication on CN-20190530ALNL with PID 13512 (C:\java\code\mydemoV1\target\classes started by Administrator in C:\java\code\mydemoV1)
+2019-11-29 15:29:00,888  INFO LucklyBabyApplication:675 - No active profile set, falling back to default profiles: default
+2019-11-29 15:29:01,313  INFO TomcatWebServer:90 - Tomcat initialized with port(s): 9094 (http)
+2019-11-29 15:29:01,338  INFO ContextLoader:296 - Root WebApplicationContext: initialization completed in 447 ms
+2019-11-29 15:29:01,370  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-11-29 15:29:01,458  INFO DruidDataSource:928 - {dataSource-2} inited
+2019-11-29 15:29:01,555  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-29 15:29:01,660  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-11-29 15:29:01,688  INFO TomcatWebServer:204 - Tomcat started on port(s): 9094 (http) with context path ''
+2019-11-29 15:29:01,689  INFO LucklyBabyApplication:59 - Started LucklyBabyApplication in 0.829 seconds (JVM running for 993.477)
+2019-11-29 15:29:01,691  INFO ConditionEvaluationDeltaLoggingListener:70 - Condition evaluation unchanged
+2019-11-29 15:29:33,398  INFO ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-29 15:29:33,403  INFO DruidDataSource:1823 - {dataSource-2} closed
+2019-11-29 15:29:33,834  INFO DevToolsPropertyDefaultsPostProcessor:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-29 15:29:33,834  INFO DevToolsPropertyDefaultsPostProcessor:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-29 15:29:33,843  INFO LucklyBabyApplication:50 - Starting LucklyBabyApplication on CN-20190530ALNL with PID 13512 (C:\java\code\mydemoV1\target\classes started by Administrator in C:\java\code\mydemoV1)
+2019-11-29 15:29:33,843  INFO LucklyBabyApplication:675 - No active profile set, falling back to default profiles: default
+2019-11-29 15:29:34,301  INFO TomcatWebServer:90 - Tomcat initialized with port(s): 9094 (http)
+2019-11-29 15:29:34,316  INFO ContextLoader:296 - Root WebApplicationContext: initialization completed in 470 ms
+2019-11-29 15:29:34,343  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-11-29 15:29:34,422  INFO DruidDataSource:928 - {dataSource-3} inited
+2019-11-29 15:29:34,499  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-29 15:29:34,573  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-11-29 15:29:34,599  INFO TomcatWebServer:204 - Tomcat started on port(s): 9094 (http) with context path ''
+2019-11-29 15:29:34,600  INFO LucklyBabyApplication:59 - Started LucklyBabyApplication in 0.781 seconds (JVM running for 1026.385)
+2019-11-29 15:29:34,602  INFO ConditionEvaluationDeltaLoggingListener:70 - Condition evaluation unchanged
+2019-11-29 15:31:23,967  INFO ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-29 15:31:23,970  INFO DruidDataSource:1823 - {dataSource-3} closed
+2019-11-29 15:31:24,312  INFO DevToolsPropertyDefaultsPostProcessor:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-29 15:31:24,313  INFO DevToolsPropertyDefaultsPostProcessor:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-29 15:31:24,321  INFO LucklyBabyApplication:50 - Starting LucklyBabyApplication on CN-20190530ALNL with PID 13512 (C:\java\code\mydemoV1\target\classes started by Administrator in C:\java\code\mydemoV1)
+2019-11-29 15:31:24,321  INFO LucklyBabyApplication:675 - No active profile set, falling back to default profiles: default
+2019-11-29 15:31:24,634  INFO TomcatWebServer:90 - Tomcat initialized with port(s): 9094 (http)
+2019-11-29 15:31:24,649  INFO ContextLoader:296 - Root WebApplicationContext: initialization completed in 324 ms
+2019-11-29 15:31:24,675  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-11-29 15:31:24,754  INFO DruidDataSource:928 - {dataSource-4} inited
+2019-11-29 15:31:24,830  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-29 15:31:24,894  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-11-29 15:31:24,918  INFO TomcatWebServer:204 - Tomcat started on port(s): 9094 (http) with context path ''
+2019-11-29 15:31:24,918  INFO LucklyBabyApplication:59 - Started LucklyBabyApplication in 0.621 seconds (JVM running for 1136.696)
+2019-11-29 15:31:24,920  INFO ConditionEvaluationDeltaLoggingListener:70 - Condition evaluation unchanged
+2019-11-29 15:31:49,476  INFO ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-29 15:31:49,482  INFO DruidDataSource:1823 - {dataSource-4} closed
+2019-11-29 15:31:49,856  INFO DevToolsPropertyDefaultsPostProcessor:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-29 15:31:49,857  INFO DevToolsPropertyDefaultsPostProcessor:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-29 15:31:49,866  INFO LucklyBabyApplication:50 - Starting LucklyBabyApplication on CN-20190530ALNL with PID 13512 (C:\java\code\mydemoV1\target\classes started by Administrator in C:\java\code\mydemoV1)
+2019-11-29 15:31:49,866  INFO LucklyBabyApplication:675 - No active profile set, falling back to default profiles: default
+2019-11-29 15:31:50,192  INFO TomcatWebServer:90 - Tomcat initialized with port(s): 9094 (http)
+2019-11-29 15:31:50,207  INFO ContextLoader:296 - Root WebApplicationContext: initialization completed in 338 ms
+2019-11-29 15:31:50,235  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-11-29 15:31:50,307  INFO DruidDataSource:928 - {dataSource-5} inited
+2019-11-29 15:31:50,382  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-29 15:31:50,443  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-11-29 15:31:50,467  INFO TomcatWebServer:204 - Tomcat started on port(s): 9094 (http) with context path ''
+2019-11-29 15:31:50,468  INFO LucklyBabyApplication:59 - Started LucklyBabyApplication in 0.636 seconds (JVM running for 1162.243)
+2019-11-29 15:31:50,469  INFO ConditionEvaluationDeltaLoggingListener:70 - Condition evaluation unchanged
+2019-11-29 15:32:09,210  INFO ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-29 15:32:09,216  INFO DruidDataSource:1823 - {dataSource-5} closed
+2019-11-29 15:32:09,541  INFO DevToolsPropertyDefaultsPostProcessor:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-29 15:32:09,542  INFO DevToolsPropertyDefaultsPostProcessor:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-29 15:32:09,548  INFO LucklyBabyApplication:50 - Starting LucklyBabyApplication on CN-20190530ALNL with PID 13512 (C:\java\code\mydemoV1\target\classes started by Administrator in C:\java\code\mydemoV1)
+2019-11-29 15:32:09,549  INFO LucklyBabyApplication:675 - No active profile set, falling back to default profiles: default
+2019-11-29 15:32:09,854  INFO TomcatWebServer:90 - Tomcat initialized with port(s): 9094 (http)
+2019-11-29 15:32:09,869  INFO ContextLoader:296 - Root WebApplicationContext: initialization completed in 318 ms
+2019-11-29 15:32:09,901  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-11-29 15:32:09,975  INFO DruidDataSource:928 - {dataSource-6} inited
+2019-11-29 15:32:10,052  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-29 15:32:10,112  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-11-29 15:32:10,136  INFO TomcatWebServer:204 - Tomcat started on port(s): 9094 (http) with context path ''
+2019-11-29 15:32:10,137  INFO LucklyBabyApplication:59 - Started LucklyBabyApplication in 0.61 seconds (JVM running for 1181.911)
+2019-11-29 15:32:10,138  INFO ConditionEvaluationDeltaLoggingListener:70 - Condition evaluation unchanged
+2019-11-29 15:32:29,670  INFO ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-29 15:32:29,673  INFO DruidDataSource:1823 - {dataSource-6} closed
+2019-11-29 15:32:30,091  INFO DevToolsPropertyDefaultsPostProcessor:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-29 15:32:30,092  INFO DevToolsPropertyDefaultsPostProcessor:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-29 15:32:30,098  INFO LucklyBabyApplication:50 - Starting LucklyBabyApplication on CN-20190530ALNL with PID 13512 (C:\java\code\mydemoV1\target\classes started by Administrator in C:\java\code\mydemoV1)
+2019-11-29 15:32:30,099  INFO LucklyBabyApplication:675 - No active profile set, falling back to default profiles: default
+2019-11-29 15:32:30,497  INFO TomcatWebServer:90 - Tomcat initialized with port(s): 9094 (http)
+2019-11-29 15:32:30,525  INFO ContextLoader:296 - Root WebApplicationContext: initialization completed in 424 ms
+2019-11-29 15:32:30,572  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-11-29 15:32:30,793  INFO DruidDataSource:928 - {dataSource-7} inited
+2019-11-29 15:32:30,870  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-29 15:32:30,925  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-11-29 15:32:30,949  INFO TomcatWebServer:204 - Tomcat started on port(s): 9094 (http) with context path ''
+2019-11-29 15:32:30,950  INFO LucklyBabyApplication:59 - Started LucklyBabyApplication in 0.876 seconds (JVM running for 1202.723)
+2019-11-29 15:32:30,951  INFO ConditionEvaluationDeltaLoggingListener:70 - Condition evaluation unchanged
+2019-11-29 15:32:57,624  INFO ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-29 15:32:57,626  INFO DruidDataSource:1823 - {dataSource-7} closed
+2019-11-29 15:32:58,051  INFO DevToolsPropertyDefaultsPostProcessor:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-29 15:32:58,052  INFO DevToolsPropertyDefaultsPostProcessor:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-29 15:32:58,063  INFO LucklyBabyApplication:50 - Starting LucklyBabyApplication on CN-20190530ALNL with PID 13512 (C:\java\code\mydemoV1\target\classes started by Administrator in C:\java\code\mydemoV1)
+2019-11-29 15:32:58,063  INFO LucklyBabyApplication:675 - No active profile set, falling back to default profiles: default
+2019-11-29 15:32:58,514  INFO TomcatWebServer:90 - Tomcat initialized with port(s): 9094 (http)
+2019-11-29 15:32:58,537  INFO ContextLoader:296 - Root WebApplicationContext: initialization completed in 467 ms
+2019-11-29 15:32:58,573  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-11-29 15:32:58,676  INFO DruidDataSource:928 - {dataSource-8} inited
+2019-11-29 15:32:58,784  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-29 15:32:58,874  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-11-29 15:32:58,911  INFO TomcatWebServer:204 - Tomcat started on port(s): 9094 (http) with context path ''
+2019-11-29 15:32:58,912  INFO LucklyBabyApplication:59 - Started LucklyBabyApplication in 0.881 seconds (JVM running for 1230.683)
+2019-11-29 15:32:58,917  INFO ConditionEvaluationDeltaLoggingListener:70 - Condition evaluation unchanged
+2019-11-29 15:33:41,641  INFO ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-29 15:33:41,645  INFO DruidDataSource:1823 - {dataSource-8} closed
+2019-11-29 15:33:42,122  INFO DevToolsPropertyDefaultsPostProcessor:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-29 15:33:42,122  INFO DevToolsPropertyDefaultsPostProcessor:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-29 15:33:42,130  INFO LucklyBabyApplication:50 - Starting LucklyBabyApplication on CN-20190530ALNL with PID 13512 (C:\java\code\mydemoV1\target\classes started by Administrator in C:\java\code\mydemoV1)
+2019-11-29 15:33:42,130  INFO LucklyBabyApplication:675 - No active profile set, falling back to default profiles: default
+2019-11-29 15:33:42,534  INFO TomcatWebServer:90 - Tomcat initialized with port(s): 9094 (http)
+2019-11-29 15:33:42,548  INFO ContextLoader:296 - Root WebApplicationContext: initialization completed in 414 ms
+2019-11-29 15:33:42,580  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-11-29 15:33:42,659  INFO DruidDataSource:928 - {dataSource-9} inited
+2019-11-29 15:33:42,727  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-29 15:33:42,785  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-11-29 15:33:42,811  INFO TomcatWebServer:204 - Tomcat started on port(s): 9094 (http) with context path ''
+2019-11-29 15:33:42,812  INFO LucklyBabyApplication:59 - Started LucklyBabyApplication in 0.709 seconds (JVM running for 1274.579)
+2019-11-29 15:33:42,813  INFO ConditionEvaluationDeltaLoggingListener:70 - Condition evaluation unchanged
+2019-11-29 15:41:40,427  INFO ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-29 15:41:40,430  INFO DruidDataSource:1823 - {dataSource-9} closed
+2019-11-29 15:41:40,745  INFO DevToolsPropertyDefaultsPostProcessor:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-29 15:41:40,745  INFO DevToolsPropertyDefaultsPostProcessor:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-29 15:41:40,753  INFO LucklyBabyApplication:50 - Starting LucklyBabyApplication on CN-20190530ALNL with PID 13512 (C:\java\code\mydemoV1\target\classes started by Administrator in C:\java\code\mydemoV1)
+2019-11-29 15:41:40,753  INFO LucklyBabyApplication:675 - No active profile set, falling back to default profiles: default
+2019-11-29 15:41:41,041  INFO TomcatWebServer:90 - Tomcat initialized with port(s): 9094 (http)
+2019-11-29 15:41:41,055  INFO ContextLoader:296 - Root WebApplicationContext: initialization completed in 299 ms
+2019-11-29 15:41:41,079  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-11-29 15:41:41,152  INFO DruidDataSource:928 - {dataSource-10} inited
+2019-11-29 15:41:41,221  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-29 15:41:41,283  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-11-29 15:41:41,307  INFO TomcatWebServer:204 - Tomcat started on port(s): 9094 (http) with context path ''
+2019-11-29 15:41:41,308  INFO LucklyBabyApplication:59 - Started LucklyBabyApplication in 0.578 seconds (JVM running for 1753.04)
+2019-11-29 15:41:41,309  INFO ConditionEvaluationDeltaLoggingListener:70 - Condition evaluation unchanged
+2019-11-29 15:44:48,630  INFO ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-29 15:44:48,634  INFO DruidDataSource:1823 - {dataSource-10} closed
+2019-11-29 15:44:48,958  INFO DevToolsPropertyDefaultsPostProcessor:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-29 15:44:48,959  INFO DevToolsPropertyDefaultsPostProcessor:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-29 15:44:48,966  INFO LucklyBabyApplication:50 - Starting LucklyBabyApplication on CN-20190530ALNL with PID 13512 (C:\java\code\mydemoV1\target\classes started by Administrator in C:\java\code\mydemoV1)
+2019-11-29 15:44:48,967  INFO LucklyBabyApplication:675 - No active profile set, falling back to default profiles: default
+2019-11-29 15:44:49,269  INFO TomcatWebServer:90 - Tomcat initialized with port(s): 9094 (http)
+2019-11-29 15:44:49,282  INFO ContextLoader:296 - Root WebApplicationContext: initialization completed in 313 ms
+2019-11-29 15:44:49,308  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-11-29 15:44:49,381  INFO DruidDataSource:928 - {dataSource-11} inited
+2019-11-29 15:44:49,447  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-29 15:44:49,507  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-11-29 15:44:49,531  INFO TomcatWebServer:204 - Tomcat started on port(s): 9094 (http) with context path ''
+2019-11-29 15:44:49,532  INFO LucklyBabyApplication:59 - Started LucklyBabyApplication in 0.589 seconds (JVM running for 1941.25)
+2019-11-29 15:44:49,534  INFO ConditionEvaluationDeltaLoggingListener:70 - Condition evaluation unchanged
+2019-11-29 15:45:29,415  INFO ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-29 15:45:29,419  INFO DruidDataSource:1823 - {dataSource-11} closed
+2019-11-29 15:45:29,854  INFO DevToolsPropertyDefaultsPostProcessor:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-29 15:45:29,855  INFO DevToolsPropertyDefaultsPostProcessor:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-29 15:45:29,867  INFO LucklyBabyApplication:50 - Starting LucklyBabyApplication on CN-20190530ALNL with PID 13512 (C:\java\code\mydemoV1\target\classes started by Administrator in C:\java\code\mydemoV1)
+2019-11-29 15:45:29,867  INFO LucklyBabyApplication:675 - No active profile set, falling back to default profiles: default
+2019-11-29 15:45:30,192  INFO TomcatWebServer:90 - Tomcat initialized with port(s): 9094 (http)
+2019-11-29 15:45:30,208  INFO ContextLoader:296 - Root WebApplicationContext: initialization completed in 338 ms
+2019-11-29 15:45:30,234  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-11-29 15:45:30,303  INFO DruidDataSource:928 - {dataSource-12} inited
+2019-11-29 15:45:30,369  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-29 15:45:30,430  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-11-29 15:45:30,455  INFO TomcatWebServer:204 - Tomcat started on port(s): 9094 (http) with context path ''
+2019-11-29 15:45:30,455  INFO LucklyBabyApplication:59 - Started LucklyBabyApplication in 0.619 seconds (JVM running for 1982.17)
+2019-11-29 15:45:30,456  INFO ConditionEvaluationDeltaLoggingListener:70 - Condition evaluation unchanged
+2019-11-29 15:49:02,042  INFO ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-29 15:49:02,052  INFO DruidDataSource:1823 - {dataSource-12} closed
+2019-11-29 15:49:09,945  INFO Version:21 - HV000001: Hibernate Validator 6.0.14.Final
+2019-11-29 15:49:10,271  INFO LucklyBabyApplication:50 - Starting LucklyBabyApplication on CN-20190530ALNL with PID 14192 (C:\java\code\mydemoV1\target\classes started by Administrator in C:\java\code\mydemoV1)
+2019-11-29 15:49:10,272  INFO LucklyBabyApplication:675 - No active profile set, falling back to default profiles: default
+2019-11-29 15:49:10,356  INFO DevToolsPropertyDefaultsPostProcessor:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-29 15:49:10,356  INFO DevToolsPropertyDefaultsPostProcessor:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-29 15:49:12,274  INFO TomcatWebServer:90 - Tomcat initialized with port(s): 9094 (http)
+2019-11-29 15:49:12,477  INFO ContextLoader:296 - Root WebApplicationContext: initialization completed in 2120 ms
+2019-11-29 15:49:12,747  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-11-29 15:49:13,920  INFO DruidDataSource:928 - {dataSource-1} inited
+2019-11-29 15:49:14,448  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-29 15:49:14,914  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-11-29 15:49:15,006  INFO TomcatWebServer:204 - Tomcat started on port(s): 9094 (http) with context path ''
+2019-11-29 15:49:15,010  INFO LucklyBabyApplication:59 - Started LucklyBabyApplication in 5.325 seconds (JVM running for 6.829)
+2019-11-29 15:51:00,449  INFO DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2019-11-29 15:51:00,458  INFO DispatcherServlet:546 - Completed initialization in 8 ms
+2019-11-29 15:52:55,723  INFO ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-29 15:52:55,734  INFO DruidDataSource:1823 - {dataSource-1} closed
+2019-11-29 15:52:56,154  INFO DevToolsPropertyDefaultsPostProcessor:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-29 15:52:56,154  INFO DevToolsPropertyDefaultsPostProcessor:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-29 15:52:56,164  INFO LucklyBabyApplication:50 - Starting LucklyBabyApplication on CN-20190530ALNL with PID 14192 (C:\java\code\mydemoV1\target\classes started by Administrator in C:\java\code\mydemoV1)
+2019-11-29 15:52:56,164  INFO LucklyBabyApplication:675 - No active profile set, falling back to default profiles: default
+2019-11-29 15:52:56,537  INFO TomcatWebServer:90 - Tomcat initialized with port(s): 9094 (http)
+2019-11-29 15:52:56,553  INFO ContextLoader:296 - Root WebApplicationContext: initialization completed in 385 ms
+2019-11-29 15:52:56,587  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-11-29 15:52:56,676  INFO DruidDataSource:928 - {dataSource-2} inited
+2019-11-29 15:52:56,779  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-29 15:52:56,858  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-11-29 15:52:56,885  INFO TomcatWebServer:204 - Tomcat started on port(s): 9094 (http) with context path ''
+2019-11-29 15:52:56,886  INFO LucklyBabyApplication:59 - Started LucklyBabyApplication in 0.747 seconds (JVM running for 228.689)
+2019-11-29 15:52:56,888  INFO ConditionEvaluationDeltaLoggingListener:70 - Condition evaluation unchanged
+2019-11-29 15:53:18,442  INFO DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2019-11-29 15:53:18,449  INFO DispatcherServlet:546 - Completed initialization in 7 ms
+2019-11-29 15:53:25,660  INFO ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-29 15:53:25,663  INFO DruidDataSource:1823 - {dataSource-2} closed
+2019-11-29 15:53:26,154  INFO DevToolsPropertyDefaultsPostProcessor:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-29 15:53:26,154  INFO DevToolsPropertyDefaultsPostProcessor:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-29 15:53:26,162  INFO LucklyBabyApplication:50 - Starting LucklyBabyApplication on CN-20190530ALNL with PID 14192 (C:\java\code\mydemoV1\target\classes started by Administrator in C:\java\code\mydemoV1)
+2019-11-29 15:53:26,162  INFO LucklyBabyApplication:675 - No active profile set, falling back to default profiles: default
+2019-11-29 15:53:26,554  INFO TomcatWebServer:90 - Tomcat initialized with port(s): 9094 (http)
+2019-11-29 15:53:26,570  INFO ContextLoader:296 - Root WebApplicationContext: initialization completed in 405 ms
+2019-11-29 15:53:26,598  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-11-29 15:53:26,675  INFO DruidDataSource:928 - {dataSource-3} inited
+2019-11-29 15:53:26,771  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-29 15:53:26,859  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-11-29 15:53:26,887  INFO TomcatWebServer:204 - Tomcat started on port(s): 9094 (http) with context path ''
+2019-11-29 15:53:26,888  INFO LucklyBabyApplication:59 - Started LucklyBabyApplication in 0.748 seconds (JVM running for 258.689)
+2019-11-29 15:53:26,890  INFO ConditionEvaluationDeltaLoggingListener:70 - Condition evaluation unchanged
+2019-11-29 15:53:51,585  INFO DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2019-11-29 15:53:51,598  INFO DispatcherServlet:546 - Completed initialization in 10 ms
+2019-11-29 16:27:46,926  INFO ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-29 16:27:46,935  INFO DruidDataSource:1823 - {dataSource-3} closed
+2019-11-29 16:57:04,291  INFO Version:21 - HV000001: Hibernate Validator 6.0.14.Final
+2019-11-29 16:57:04,629  INFO LucklyBabyApplication:50 - Starting LucklyBabyApplication on CN-20190530ALNL with PID 10616 (C:\java\code\mydemoV1\target\classes started by Administrator in C:\java\code\mydemoV1)
+2019-11-29 16:57:04,631  INFO LucklyBabyApplication:675 - No active profile set, falling back to default profiles: default
+2019-11-29 16:57:04,704  INFO DevToolsPropertyDefaultsPostProcessor:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-29 16:57:04,704  INFO DevToolsPropertyDefaultsPostProcessor:227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-29 16:57:06,511  INFO TomcatWebServer:90 - Tomcat initialized with port(s): 9094 (http)
+2019-11-29 16:57:06,647  INFO ContextLoader:296 - Root WebApplicationContext: initialization completed in 1942 ms
+2019-11-29 16:57:06,764  INFO DruidDataSourceAutoConfigure:56 - Init DruidDataSource
+2019-11-29 16:57:07,234  INFO DruidDataSource:928 - {dataSource-1} inited
+2019-11-29 16:57:07,619  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-29 16:57:07,849  INFO OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2019-11-29 16:57:07,913  INFO TomcatWebServer:204 - Tomcat started on port(s): 9094 (http) with context path ''
+2019-11-29 16:57:07,917  INFO LucklyBabyApplication:59 - Started LucklyBabyApplication in 4.027 seconds (JVM running for 6.012)

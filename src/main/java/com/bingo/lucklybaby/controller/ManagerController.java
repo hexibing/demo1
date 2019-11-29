@@ -1,27 +1,33 @@
 package com.bingo.lucklybaby.controller;
 
+import com.bingo.lucklybaby.ConfigDto.BaseDto;
+import com.bingo.lucklybaby.model.Manager;
 import com.bingo.lucklybaby.model.User;
+import com.bingo.lucklybaby.service.IManagerService;
 import com.bingo.lucklybaby.service.IUserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/user")
-public class UserController {
+@RequestMapping("/manager")
+public class ManagerController {
 
-    private  static Logger logger= LoggerFactory.getLogger(UserController.class);
+    private  static Logger logger= LoggerFactory.getLogger(ManagerController.class);
 
 
     @Autowired
     private IUserService userService;
+    @Autowired
+    private IManagerService managerService;
 
 
-    @RequestMapping(value = "/hello")
-    public String hello(){
-        return "hello spring boot11111";
+    @RequestMapping(value = "/login")
+    public BaseDto login(@RequestBody Manager manager){
+        return managerService.login(manager);
     }
 
     @RequestMapping(value = "/getInfo")
