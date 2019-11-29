@@ -28,4 +28,14 @@ public class ManagerServiceImpl implements IManagerService {
         }
         return new BaseDto(false);
     }
+
+    @Override
+    public Manager getManager(Manager manager) {
+        ManagerExample example=new ManagerExample();
+        ManagerExample.Criteria criteria=example.createCriteria();
+        criteria.andNameEqualTo(manager.getName());
+        criteria.andPasswordEqualTo(manager.getPassword());
+        List<Manager> list =managerMapper.selectByExample(example);
+        return list.get(0);
+    }
 }

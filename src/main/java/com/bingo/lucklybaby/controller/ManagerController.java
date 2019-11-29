@@ -37,6 +37,12 @@ public class ManagerController {
         return userService.getUserInfo(1L);
     }
 
+    @RequestMapping(value = "/getManager")
+    public Manager getManager(@RequestBody Manager manager){
+
+        logger.info("getManager");
+        return managerService.getManager(manager);
+    }
 
 
 }
