@@ -1,7 +1,4 @@
-package com.example.demo1.ConfigDto;
-
-import com.example.demo1.ConfigDto.BaseDto;
-import com.example.demo1.ConfigDto.PageBaseVo;
+package com.bingo.lucklybaby.ConfigDto;
 
 import java.util.Collection;
 

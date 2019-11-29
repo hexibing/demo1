@@ -1,6 +1,4 @@
-package com.example.demo1.ConfigDto;
-
-import com.example.demo1.ConfigDto.BaseVo;
+package com.bingo.lucklybaby.ConfigDto;
 
 import javax.validation.constraints.NotNull;
 

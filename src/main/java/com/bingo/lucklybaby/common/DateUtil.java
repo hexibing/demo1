@@ -1,4 +1,4 @@
-package com.example.demo1.common;
+package com.bingo.lucklybaby.common;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 

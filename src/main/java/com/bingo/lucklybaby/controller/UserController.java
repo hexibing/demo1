@@ -1,11 +1,9 @@
-package com.example.demo1.controller;
+package com.bingo.lucklybaby.controller;
 
-import com.example.demo1.dto.UserDto;
-import com.example.demo1.model.User;
-import com.example.demo1.service.IUserService;
+import com.bingo.lucklybaby.model.User;
+import com.bingo.lucklybaby.service.IUserService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -29,14 +27,9 @@ public class UserController {
     public User getInfo(){
 
         logger.info("aaaa");
-        return userService.getUserInfo("1");
+        return userService.getUserInfo(1L);
     }
 
-    @RequestMapping(value = "/getInfo1")
-    public UserDto getInfo1(){
 
-        logger.info("aaaa");
-        return userService.getUserDto("1");
-    }
 
 }
