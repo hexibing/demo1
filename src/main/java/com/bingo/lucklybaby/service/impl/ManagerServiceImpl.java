@@ -1,6 +1,6 @@
 package com.bingo.lucklybaby.service.impl;
 
-import com.bingo.lucklybaby.ConfigDto.BaseDto;
+import com.bingo.lucklybaby.configDto.BaseDto;
 import com.bingo.lucklybaby.mapper.ManagerMapper;
 import com.bingo.lucklybaby.model.Manager;
 import com.bingo.lucklybaby.model.ManagerExample;

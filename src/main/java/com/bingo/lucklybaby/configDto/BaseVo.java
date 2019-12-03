@@ -1,4 +1,4 @@
-package com.bingo.lucklybaby.ConfigDto;
+package com.bingo.lucklybaby.configDto;
 
 import java.io.Serializable;
 
